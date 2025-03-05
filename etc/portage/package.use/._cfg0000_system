@@ -1,0 +1,12 @@
+sys-apps/systemd-utils boot kernel-install
+sys-kernel/installkernel systemd systemd-boot
+
+sys-fs/lvm2 lvm
+# required by sys-kernel/gentoo-kernel-bin-6.6.74::gentoo[initramfs]
+# required by virtual/dist-kernel-6.6.74::gentoo
+>=sys-kernel/installkernel-50 dracut
+# required by dev-libs/libayatana-appindicator-0.5.93::gentoo
+# required by gnome-extra/nm-applet-1.36.0::gentoo[appindicator]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3

@@ -1,0 +1,7 @@
+sys-apps/systemd-utils boot kernel-install
+sys-kernel/installkernel systemd systemd-boot
+
+sys-fs/lvm2 lvm
+# required by sys-kernel/gentoo-kernel-bin-6.6.74::gentoo[initramfs]
+# required by virtual/dist-kernel-6.6.74::gentoo
+>=sys-kernel/installkernel-50 dracut
