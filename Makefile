@@ -33,7 +33,7 @@ update:
 	@$(SU) emaint $(EMAINT_UPDATE)
 
 upgrade:
-	@$(SU) emerge $(EMERGE_UPGRADE
+	@$(SU) emerge $(EMERGE_UPGRADE)
 
 all: update upgrade
 
