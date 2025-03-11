@@ -1,12 +1,15 @@
+app-admin/kernel-hardening-checker
 app-admin/sudo
 app-editors/vim
 app-eselect/eselect-repository
 app-misc/neofetch
 app-portage/eix
-app-portage/genlop
 app-portage/gentoolkit
+app-shells/gentoo-zsh-completions
+app-shells/zsh
+app-shells/zsh-completions
 app-text/tree
-gnome-extra/nm-applet
+dev-util/mesa_clc
 gnome-extra/polkit-gnome
 gui-apps/grim
 gui-apps/swaybg
@@ -15,7 +18,9 @@ gui-apps/swaylock
 gui-apps/waybar
 gui-apps/wofi
 gui-wm/sway
+llvm-core/clang
 media-libs/libpulse
+media-libs/mesa
 media-sound/playerctl
 net-misc/networkmanager
 sys-apps/bleachbit
@@ -26,6 +31,7 @@ sys-kernel/dracut
 sys-kernel/gentoo-kernel-bin
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
+sys-kernel/vanilla-sources
 sys-process/htop
 www-client/firefox-bin
 x11-apps/xhost

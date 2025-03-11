@@ -17,8 +17,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias bleachbit="xhost si:localuser:root && sudo bleachbit"
-alias vi=nvim
-alias vim=nvim
 
 # https://wiki.archlinux.org/title/Kitty#Terminal_issues_with_SSH
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
